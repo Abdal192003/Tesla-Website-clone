@@ -3,551 +3,120 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="This is a Description">
-    <meta name="keywords" content="This is a keywords">
-    <meta name="robot" content="INDEX,FOLLOW">
-    <title>Document</title>
-    <style>
-        body {
-            display: block;
-            margin: auto;
-        }
-
-        .navbar {
-            position: sticky;
-            top: 0px;
-
-        }
-
-        ul li {
-            display: inline-block;
-            margin: 0px 0px;
-            padding: 10px;
-        }
-
-        li a {
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 5px;
-        }
-
-        li a:hover {
-            background-color: white;
-            border-radius: 5px;
-            color:#7395ae;
-        }
-
-        ul {
-            text-align: center;
-
-        }
-
-        .right {
-            /* display: inline-block; */
-            text-align: right;
-            margin: -54px 13px;
-
-        }
-
-        .right-list {
-            display: inline-block;
-            margin: 0px 40px;
-            font-weight: bold;
-            padding: 5px;
-        }
-
-        #logo-image {
-            width: 100px;
-            margin: -28px 8px;
-
-        }
-
-        section {
-            /* border:2px solid black; */
-            height: 100vh;
-            margin: 0px 0px;
-
-        }
-
-        .model3 {
-            background: url(img/car1.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-        .modely {
-            background: url(img/car2.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-        .modelx {
-            background: url(img/car3.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .solarpanel {
-            background: url(img/house1.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-        .solarroof {
-            background: url(img/house2.webp);
-            background-position: center;
-            background-size: cover;
-        }
-
-        .access {
-            background: url(img/accesor.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .info-first {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .info-second {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .info-third {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .info-fourth {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .info-fifth {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .info-sixth {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            height: 40%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        }
-
-        .btn-first {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-first a {
-            text-align: center;
-            color: white;
-            text-decoration: none;
-
-        }
-        .btn-first a:hover{
-            color: #7395ae;
-        }
-
-        .btn-first_second {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-
-        }
-
-        .btn-first_second a {
-            color: white;
-            text-decoration: none;
-            text-align: center;
-        }
-        .btn-first_second a:hover{
-            color: #7395ae;
-        }
-
-        .btn-second {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-second a {
-            color: white;
-            text-decoration: none;
-            text-align: center;
-        }
-        .btn-second a:hover{
-            color: #7395ae;
-        }
-
-        .btn-second_second {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-
-        }
-
-        .btn-second_second a {
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-second_second a:hover{
-            color: #7395ae;
-        }
-
-        .btn-third {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-third a {
-            color: white;
-            text-decoration: none;
-            text-align: center;
-        }
-        .btn-third a:hover{
-            color: #7395ae;
-        }
-
-        .btn-third_second {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-third_second a {
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-third_second a:hover{
-            color: #7395ae;
-        }
-
-        .btn-fourth {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-fourth a {
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-fourth a:hover{
-            color: #7395ae;
-        }
-
-        .btn-fourth_second {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-fourth_second a {
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-fourth_second a:hover{
-            color: #7395ae;
-        }
-
-        .btn-fifth {
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-
-        .btn-fifth a {
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-fifth a:hover{
-            color: #7395ae;
-        }
-        .btn-fifth_second{
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-        .btn-fifth_second a{
-            color:white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-fifth_second a:hover{
-            color: #7395ae;
-        }
-        .btn-sixth{
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px 350px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-        .btn-sixth a{
-            color:white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-sixth a:hover{
-            color: #7395ae;
-        }
-        .btn-sixth_second{
-            display: inline-block;
-            border: 2px solid black;
-            width: 200px;
-            height: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #151320;
-            margin: 300px -300px;
-            font-size: bolder;
-            opacity: 0.8;
-        }
-        .btn-sixth_second a{
-            color:white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn-sixth_second a:hover{
-            color: #7395ae;
-        }
-    </style>
+    <title>Clone Website | Tesla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <div class="logo">
-            <img src="img/logo.png" alt="logo" id="logo-image">
+            <img src="/logo.svg" alt="logo">
         </div>
-        <div class="list">
-            <ul>
-                <li><a href="#" classs="mid-list">Model S</a></li>
-                <li><a href="#" classs="mid-list">Model 3</a></li>
-                <li><a href="#" classs="mid-list">Model X</a></li>
-                <li><a href="#" classs="mid-list">Model Y</a></li>
-                <li><a href="#" classs="mid-list">Solar Roof</a></li>
-                <li><a href="#" classs="mid-list">Solar Panels</a></li>
-            </ul>
+        <div class="link">
+            <li><a href="#s" classs="mid-list">Model S</a></li>
+            <li><a href="#3" classs="mid-list">Model 3</a></li>
+            <li><a href="#x" classs="mid-list">Model X</a></li>
+            <li><a href="#y" classs="mid-list">Model Y</a></li>
+            <li><a href="#sr" classs="mid-list">Solar Roof</a></li>
+            <li><a href="#sp" classs="mid-list">Solar Panels</a></li>
         </div>
-        <div class="right">
-            <ul class="right-list">
-                <li class="shop-right"><a href="#">Shop</a></li>
-                <li class="account-righ"><a href="#">Account</a></li>
-                <li class="menu-right"><a href="#">Menu</a></li>
-            </ul>
+        <div class="button-link">
+            <li><a href="">Shop</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="">Menu</a></li>
 
         </div>
-    </nav>
-    <section class="model3">
-        <div class="info-first">
-            <h1 class="info-first-head">MODEL 3</h1>
-            <strong>Order Online for <u>Touchless Delivery</u></strong>
+    </div>
+    <section class="card1" id="s">
+        <div class="detail">
+            <h1>MODEL S</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
         </div>
-        <div class="btn-first">
-            <a href="#">CUSTOM ORDER</a>
-        </div>
-        <div class="btn-first_second">
-            <a href="#">EXISTING INVENTORY</a>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
         </div>
         </a>
     </section>
-    <section class="modely">
-        <div class="info-second">
-            <h1 class="info-second-head">MODEL Y</h1>
-            <strong>Order Online for <u>Touchless Delivery</u></strong>
-        </div>
-        <div class="btn-second">
-            <a href="#">CUSTOM ORDER</a>
-        </div>
-        <div class="btn-second_second">
-            <a href="#">EXISTING INVENTORY</a>
-        </div>
-    </section>
-    <section class="modelx">
-        <div class="info-third">
-            <h1 class="info-third-head">MODEL X</h1>
-            <strong>Order Online for <u>Touchless Delivery</u></strong>
-        </div>
-        <div class="btn-third">
-            <a href="#">CUSTOM ORDER</a>
-        </div>
-        <div class="btn-third_second">
-            <a href="#">EXISTING INVENTORY</a>
-        </div>
-    </section>
-    <section class="solarpanel">
-        <div class="info-fourth">
-            <h1 class="info-fourth-head">SOLAR PANELS</h1>
-            <STRONG>LOWEST COST SOLAR PANELS <u>IN AMERICA</u></STRONG>
-        </div>
-        <div class="btn-fourth">
-            <a href="#">ORDER NOW</a>
-        </div>
-        <div class="btn-fourth_second">
-            <a href="#">LEARN MORE</a>
-        </div>
-    </section>
-    <section class="solarroof">
-        <div class="info-fifth">
-            <h1 class="info-fifth-head">SOLAR ROOF</h1>
-            <strong><u>PRODUCE CLEAN ENERGY</u> FROM YOUR ROOF</strong>
-        </div>
-        <div class="btn-fifth">
-            <a href="#">ORDER NOW</a>
-        </div>
-        <div class="btn-fifth_second">
-            <a href="#">LEARN MORE</a>
-        </div>
-    </section>
-    <section class="access">
-        <div class="info-sixth">
-            <h1 class="info-sixth-head">ACCESSORIES</h1>
 
+    <section class="card2" id="3">
+        <div class="detail">
+            <h1>MODEL 3</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
         </div>
-        <div class="btn-sixth">
-            <a href="#">ORDER NOW</a>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
         </div>
-        <div class="btn-sixth_second">
-            <a href="#">LEARN MORE</a>
-        </div>
+        </a>
     </section>
+
+
+    <section class="card3" id="x">
+        <div class="detail">
+            <h1>MODEL X</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
+        </div>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
+        </div>
+        </a>
+    </section>
+
+
+    <section class="card4" id="y">
+        <div class="detail">
+            <h1>MODEL Y</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
+        </div>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
+        </div>
+        </a>
+    </section>
+
+
+    <section class="card5" id="sr">
+        <div class="detail">
+            <h1>Solar Roof</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
+        </div>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
+        </div>
+        </a>
+    </section>
+
+
+    <section class="card6" id="sp">
+        <div class="detail">
+            <h1>Solar Panels</h1>
+            <p><strong>Order Online for <u>Touchless Delivery</u></strong></p>
+        </div>
+        <div class="button">
+            <div class="links">
+                <a href="#">Customer Order</a>
+                <a href="#">Existing Inventory</a>
+            </div>
+        </div>
+        </a>
+    </section>
+
 
 </body>
 

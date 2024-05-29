@@ -1,2 +1,2 @@
-# Tesla-Website-clone
-Language used is Html and css
+## Tesla Clone
+![Screenshot](https://github.com/eatulrajput/Tesla-Clone/blob/main/design.png)
